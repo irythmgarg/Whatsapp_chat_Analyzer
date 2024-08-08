@@ -3,7 +3,6 @@ import streamlit
 from urlextract import URLExtract
 extract=URLExtract()
 import emoji
-import wordcloud as WordCloud
 import matplotlib.pyplot as plt
 from collections import Counter
 def fetch(user_name,df):
